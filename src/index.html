@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fece00">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+  <title>filters & interactions</title>
+</head>
+<body>
+
+  <st-words id="prompter">
+    <span>slide</span>
+    <span>to</span>
+    <span>interact</span>
+  </st-words>
+
+  <video src="source.mp4" playsinline autoplay loop muted></video>
+
+  <ul class="vote-options">
+    <li>
+      <h1 style="font-size: 4em">drag a filly up bar</h1>
+      <st-pop></st-pop>
+      <st-slide></st-slide>
+    </li>
+    <li>
+      <h1 style="font-size: 4em">turn a spinny dial around</h1>
+      <st-pop></st-pop>
+      <st-dial></st-dial>
+    </li>
+    <li style="height: 400px">
+      <h1 style="font-size: 3em">really just another interaction here</h1>
+    </li>
+    <li style="height: 400px">
+      <h1 style="font-size: 3em">and another, but god damn I'm lazy</h1>
+    </li>
+  </ul>
+
+</body>
+</html>
